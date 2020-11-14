@@ -10,7 +10,8 @@
 ## Questões
 
 
-1. O que é o Git?
+1. O que é o Git?<br>
+**R:** *O Git foi inicialmente projetado e desenvolvido por Linus Torvalds para o desenvolvimento do kernel Linux, logo mais foi adotado por muitos outros projetos, trata-se de um sistema de controle de versão, que cuida do gerenciamento de versões de um projeto, incluindo documentos, código-fonte, programas, etc. Assim, esse sistema permite rastrear as alterações feitas em um projeto, registra-las e fornecer meios de desfaze-las caracterizando-se como um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central. O Git é um software livre, distribuído sob os termos da GNU General Public License.*
 2. O que é versionamento de software?
 3. Por que utilizar o Git como controle de versionamento?
 4. Quais as vantagens do Git?
