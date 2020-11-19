@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Atividade de projeto estruturado APE</title>
 </head>
 <body>
+    <header>
+        <h1>Sistema de informacao</h1>
+        <nav>
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+            <a href="#">link3</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Atividade de projeto estruturado APE11</h2>
+        
+        <section class="questoes">
+            <h3>Questões</h3>
+
+                1) Para que serve o commit e qual a melhor forma de utilizá-lo?<br>
+
+                <p><strong>R:</strong> Na ciência da computação e gerenciamento de dados, um <code>commit</code> refere-se à ideia de fazer permanentes um conjunto de mudanças experimentais, marcando o fim de uma transação e proporcionando durabilidade às transações ACID. Nos sistemas de controle de versao um <code>commit</code> e uma unidades estrutural de uma linha do tempo de projeto, adiciona as alterações mais recentes do código-fonte para o repositório, tornando essas alterações parte da revisão principal do repositório. Esse comando e utilizado apos o uso dos comandos <code>git status</code> e <code>git add</code>, onde o primeiro exibe o status do seu repositório atual e o segundo adiciona o arquivo em um lugar identificado como INDEX, que funciona como uma área do git no qual os arquivos possam ser enviados ao repositorio.</p>
+
+                2) Qual a diferença entre commit e push?<br>
+
+                <p><strong>R:</strong> A diferença é que o <code>commit</code> confirmará as alterações no repositório local, enquanto o <code>push</code> enviará as alterações para um repositório remoto, onde remote é um endereço de um repositório clonado que tem os mesmos dados e histórico e está apenas esperando para receber atualizações. Normalmente a maioria dos projetos trabalham com um remote <code>origin</code> e o branch <code>master</code> por padrão.</p>
+
+                3) O que é tag?<br>
+
+                <p><strong>R:</strong> é uma marcação, ou seja são referências que apontam para momentos específicos no histórico do git. A marcação costuma ser utilizada para capturar um ponto no histórico usado para um lançamento de versão, ela identifica um <code>commit</code> específico com um rótulo descritivo portanto, não muda, mesmo se a branch seguir em frente sendo entao uma referência imutável.</p>
+
+                4) O que é branch?<br>
+                <p><strong>R:</strong> é uma ramificação no git trata-se de um ponteiro para as alterações feitas nos arquivos do projeto. É útil em situações nas quais você deseja adicionar um novo recurso ou corrigir um erro, gerando uma nova ramificação garantindo que o código instável não seja mesclado nos arquivos do projeto principal, branches são referências mutáveis. Depois de concluir a atualização dos códigos da ramificação, você pode mesclar a ramificação com a principal, geralmente chamada de master.</p>
+
+                5) Como resolver possíveis conflitos no Git?<br>
+
+                <p><strong>R:</strong>O conflito ocorre entre duas versões daquilo que o Git julga ser o mesmo trecho de código. A primeira sendo a sua versão HEAD e a segunda sendo a versão do ramo/branch que estamos tentando mesclar <code>master</code> por exemplo. Precisamos localizar os arquivos onde ocorreram conflitos, para isso usamos o <code>git status</code> o Git uma marcação com as versões do mesmo código: A versão que você tem, e a versão que está tentando mesclar para solucionar o conflito é preciso apagar o código incorreto, alterando o arquivo para que contenha apenas uma versão.</p>
+
+        </section>
+
+    </main>
+    <footer>
+        <section class="contato">
+            <h5>Fale conosco</h5>
+            <p>Sistema de informacao</p>
+            <p>Endereco</p>
+            <p>Endereco linha 2</p>
+
+        </section>
+        <section class="sitemap">
+            <h5>Mapa do site</h5>
+            <ul>
+                <li><a href="#">link1</a></li>
+                <li><a href="#">link2</a></li>
+                <li><a href="#">link3</a></li>
+            </ul>
+
+        </section>
+
+    </footer>
     
 </body>
 </html>
