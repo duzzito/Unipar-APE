@@ -54,13 +54,16 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    min-height: 300px;
 }
 header h1 {
+    padding-top: 20%;
     font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
     color: #f0a028;
 }
 header p {
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
@@ -95,7 +98,7 @@ footer{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 3%;
     padding-bottom: 20px;
     background-image: linear-gradient(to bottom, #8a2be2, #8222c4, #771ba8, #6b158d, #5e1174);
     color: #ffffff;
@@ -127,24 +130,34 @@ footer{
     }
     /* Ajustando o cabeçalho */
     header{
-        height: 300px;
+        height: 500px;
         height: 30vh;
         justify-content: center;
-        padding: 20%;
+        min-height: 500px;
+    }
+    header h1{
+        padding: 3% 0;
+    }
+    header p {
+        padding: 0 15%;
     }
     /* Ajustando as seçoes */
     .questoes{
-        height: 600px;
+        height: 800px;
         height: 60vh;
         justify-content: center;
-        margin: 0, auto;
-        padding: 10% 20% 10%;
+        min-height: 800px;
+        margin: 0 auto;
+    }
+    .questoes p {
+        padding: 0 10%;
     }
     footer{
-        padding-top: 10%;
-        height: 300px;
+        height: 350px;
         height: 30vh;
         justify-content: center;
+        min-height: 350px;
+        margin: 0 auto;
     }
 
 }
