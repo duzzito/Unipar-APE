@@ -1,0 +1,150 @@
+/* Definições gerais */
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h5 {
+    font-weight: 700;
+}
+
+/* Trabalhando o menu de navegação */
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #482E63;
+}
+nav > a {
+    padding-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Acme, serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+nav ul li {
+    width: 100%;
+    text-align: center;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    color: #d9d5da;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Acme, Arial, Helvetica, sans-serif;
+}
+
+/* Trabalhando o cabeçalho */
+header {
+    background-image: linear-gradient(to bottom, transparent 20%, #8a2be2 85%), url("/Img/estudante.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+    color: #f0a028;
+}
+header p {
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+/* Trabalhando as seções */
+.questoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 20px;
+    background-color: #8a2be2;
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+}
+.questoes h2 {
+    color: #f0a028;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.questoes h3 {
+    color: #e9e3e6;
+}
+.questoes p {
+    text-align: left;
+    margin-bottom: 2em;
+    color: #000000;
+}
+
+/* Trabalhando o rodape */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to bottom, #8a2be2, #8222c4, #771ba8, #6b158d, #5e1174);
+    color: #ffffff;
+}
+.contato h4 {
+    text-transform: uppercase;
+    color: #e9e3e6;
+    padding-bottom: 5px;
+}
+.contato #aluno {
+    padding-bottom: 10px;
+}
+.contato p {
+    color: #e2e0e2;
+}
+
+@media screen and (min-width: 768px){
+    /* Ajustando o menu de navegação */
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+        top: 0;
+        left: 0;
+        padding: 10px;
+    }
+    nav ul{
+        flex-direction: row;
+        width: 30%;
+    }
+    /* Ajustando o cabeçalho */
+    header{
+        height: 300px;
+        height: 30vh;
+        justify-content: center;
+        padding: 20%;
+    }
+    /* Ajustando as seçoes */
+    .questoes{
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+        margin: 0, auto;
+        padding: 10% 20% 10%;
+    }
+    footer{
+        padding-top: 10%;
+        height: 300px;
+        height: 30vh;
+        justify-content: center;
+    }
+
+}
